@@ -1,5 +1,5 @@
-from pyrogram import filters
-from pyrogram.types import Message
+from pyrogram import filters, Client
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from unidecode import unidecode
 
 from AnonXMusic import app
